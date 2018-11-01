@@ -87,5 +87,11 @@ module.exports = {
     "no-use-before-define": [
       "error", { "functions": false, "classes": true }
     ],
+    "prefer-destructuring": ["error", {
+      "array": false,
+      "object": true
+    }, {
+      "enforceForRenamedProperties": false
+    }]
   },
 };
